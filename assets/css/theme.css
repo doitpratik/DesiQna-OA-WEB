@@ -1078,6 +1078,42 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+@media (max-width: 450px) {
+  .navbar-expand-sm .navbar-nav {
+    margin-top: 0;
+    border-top: none;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .navbar-expand-sm .navbar-nav {
+    align-items: center;
+  }
+  .card-service {
+    display: grid;
+    max-width: 100px;
+    text-align: center ;
+    justify-content: center;
+  }
+  #company-logo {
+    justify-content: center;
+    width: 50% ;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .col-lg-4 {
+    display: flex;
+    flex: 1 0 31%;
+  }
+}
+
 @media (min-width: 576px) {
   .navbar-expand-sm .navbar-nav {
     margin-top: 0;
